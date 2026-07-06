@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wildlife Conservation Club</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background:#f4f4f9;
+    color: #1e4683;
+    line-height: 1.6;
+  }
+
+  /* HERO BANNER */
+  .hero {
+    background: url(wild.jpg) center/cover no-repeat;
+    color:wheat;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+  }
+  .hero p {
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  }
+
+  /* MAIN CONTENT BOX */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #111414f1;
+    margin-bottom: 20px;
+  }
+
+  /* 3 CARDS */
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    background:#cff800;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .card h3 {
+    color: #d84315;
+    margin-top: 0;
+  }
+
+  /* BUTTON */
+  .btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    background: #2c3e50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background: #d84315;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #2c3e50;
+    color: white;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Wildlife Conservation Club</h1>
+    <p>Protecting Nature, One Step at a Time</p>
+  </div>
+
+  <div class="container">
+    <h2>What We Do</h2>
+    
+    <div class="cards">
+      <div class="card">
+        <h3>Tree Planting</h3>
+        <p>We plant trees around school and Ibanda town every term to restore green spaces.</p></div>
+      
+      <div class="card">
+        <h3>Animal Awareness</h3>
+        <p>Campaigns to stop poaching and protect endangered animals in Uganda.</p>
+      </div>
+
+      <div class="card">
+        <h3>Clean-Up Drives</h3>
+        <p>Monthly clean-ups to keep plastic out of rivers and wildlife habitats.</p>
+      </div>
+    </div>
+    </div>
+    <a href="join.html" class="btn">Join the Club</a>
+  </div>
+
+  <footer>
+    © 2026 Wildlife Conservation Club | Ibanda
+  </footer>
+
+</body>
+</html>
